@@ -167,6 +167,22 @@ The assembly-based registration approach provides flexibility for organizing com
 - **Reporting Access**: Isolate read models and reporting queries
 - **Reduced Coupling**: Minimize dependencies between different parts of your application
 
+## 📁 Project Structure
+
+```
+DistLib/
+├── src/
+│   ├── DistLib.Core/                 # Core abstractions and utilities
+│   ├── DistLib.Requests.MediaR/      # MediatR CQRS implementation
+│   └── DistLib.WebApi/               # Web API presentation layer utilities
+├── tests/                             # Test projects
+├── docs/                              # Documentation
+├── .gitignore                         # Git ignore rules
+├── CONTRIBUTING.md                    # Contributing guidelines
+├── LICENSE                            # MIT License
+└── README.md                          # This file
+```
+
 ## 📚 Documentation
 
 - [Getting Started Guide](docs/getting-started.md)
@@ -196,9 +212,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - 📖 [Documentation](docs/)
-- 🐛 [Issues](https://github.com/yourusername/DistLib/issues)
-- 💬 [Discussions](https://github.com/yourusername/DistLib/discussions)
-- 📧 [Email Support](mailto:support@distlib.dev)
+- 🐛 [Issues](https://github.com/nwizugbesamson/DistLib/issues)
+- 💬 [Discussions](https://github.com/nwizugbesamson/DistLib/discussions)
+- 📧 [Email Support](mailto:samson@dotnetliverpool.org.uk)
 
 ---
 
