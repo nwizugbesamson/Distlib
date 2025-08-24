@@ -1,8 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistLib.Core.WebApi", "DistLib.Core.WebApi\DistLib.Core.WebApi.csproj", "{4F201D7C-EC6F-4C4D-8C0B-A2D910CF0E11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistLib.WebApi", "DistLib.WebApi\DistLib.WebApi.csproj", "{4F201D7C-EC6F-4C4D-8C0B-A2D910CF0E11}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistLib.Core", "DistLib.Core\DistLib.Core.csproj", "{84461618-1B1A-482E-AFE2-BC6FAEEE5984}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistLib.Requests.MediaR", "DistLib.Requests.MediaR\DistLib.Requests.MediaR.csproj", "{3B39B6F7-735F-40B6-ADDE-690A092A4442}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +20,9 @@ Global
 		{84461618-1B1A-482E-AFE2-BC6FAEEE5984}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84461618-1B1A-482E-AFE2-BC6FAEEE5984}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84461618-1B1A-482E-AFE2-BC6FAEEE5984}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B39B6F7-735F-40B6-ADDE-690A092A4442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B39B6F7-735F-40B6-ADDE-690A092A4442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B39B6F7-735F-40B6-ADDE-690A092A4442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B39B6F7-735F-40B6-ADDE-690A092A4442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

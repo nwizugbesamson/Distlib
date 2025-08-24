@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>DistLib.Core.Requests.MediaR</RootNamespace>
+        <Version>1.0.1</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\DistLib.Core\DistLib.Core.csproj" />
+    </ItemGroup>
+
+</Project>
